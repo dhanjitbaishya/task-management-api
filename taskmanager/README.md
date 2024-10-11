@@ -5,4 +5,13 @@ This is a simple Task Management API built using Django and Django REST Framewor
 ## Setup Instructions
 
 1. Clone the repository:
-   git clone <repository-url>
+   git clone https://github.com/dhanjitbaishya/task-management-api.git
+2. Navigate to the project directory:
+   cd task-management-api
+3. Install the dependencies:
+   pip install -r requirements.txt
+4. Apply migrations:
+   python manage.py migrate
+5. Run the development server:
+   python manage.py runserver
+6. 
